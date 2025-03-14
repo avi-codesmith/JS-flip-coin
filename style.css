@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  user-select: none;
 }
 
 body {
@@ -25,6 +26,8 @@ body {
   padding: 25px 35px;
   margin: 0 24px 0 24px;
   position: relative;
+  transform: translateY(-2000px);
+  transition: all 1s ease;
 }
 
 svg {
@@ -90,7 +93,7 @@ button {
   cursor: pointer;
 }
 
-button:active {
+.active {
   background-color: #f08c00;
 }
 
