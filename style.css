@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  color: orange;
+}
+
+.wrapper {
+  width: 400px;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 25px 35px;
+  margin: 0 24px 0 24px;
+}
+
+.coin {
+  height: 128px;
+  width: 128px;
+  background-color: orangered;
+  border-radius: 50%;
+  border: 8px solid #f59f00;
+  color: #f59f00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: sans-serif;
+  margin-top: 24px;
+  text-shadow: -2px -2px 1px red;
+}
+
+button {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: orange;
+  border: none;
+  color: #222;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #f08c00;
+}
+
+.bounce {
+  animation: toss 0.8s linear;
+}
+@keyframes toss {
+  0% {
+    transform: scale(1) rotateX(0deg);
+  }
+  50% {
+    transform: scale(2) rotateX(360deg);
+  }
+  100% {
+    transform: scale(1) rotateX(0deg);
+  }
+}
