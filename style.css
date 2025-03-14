@@ -33,9 +33,9 @@ body {
 svg {
   position: absolute;
   top: 4%;
-  left: 4%;
-  height: 42px;
-  width: 42px;
+  right: 4%;
+  height: 36px;
+  width: 36px;
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -46,8 +46,9 @@ svg:active {
 
 .count {
   position: absolute;
-  top: -6%;
-  right: -8%;
+  top: -10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: #222;
   padding: 6px 10px;
   border-radius: 8px;
@@ -56,7 +57,7 @@ svg:active {
   align-items: center;
   justify-content: center;
   gap: 12px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 14px;
 }
