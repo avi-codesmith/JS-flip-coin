@@ -65,10 +65,10 @@ svg:active {
 .coin {
   height: 128px;
   width: 128px;
-  background-color: orangered;
+  background-color: #fab005;
   border-radius: 50%;
-  border: 8px solid #f59f00;
-  color: #f59f00;
+  border: 8px solid #f76707;
+  color: #f76009;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,7 +77,7 @@ svg:active {
   font-weight: 900;
   font-family: sans-serif;
   margin-top: 24px;
-  text-shadow: -2px -2px 1px red;
+  /* text-shadow: -2px -2px 1px #f08c00; */
   z-index: 999;
 }
 
